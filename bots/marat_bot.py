@@ -169,10 +169,7 @@ async def messages_router(message: types.Message):
 
     # --- КНОПКИ ГЛАВНОГО МЕНЮ (ИИ НЕ РАБОТАЕТ) ---
     menu_buttons = [
-        "О компании",
-        "Товары",
-        "Новости",
-        "Контакты"
+        "lol"
     ]
 
     if text in menu_buttons or text.startswith("/"):
