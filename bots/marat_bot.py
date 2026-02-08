@@ -25,7 +25,7 @@ phone_kb = ReplyKeyboardMarkup(
 
 # Функция отправки основного приветствия и меню
 async def send_start_message(message: types.Message):
-    photo = FSInputFile("media/photos/marat.jpg")
+    photo = FSInputFile("media/photos/man.jpg")
     user_name = message.from_user.first_name or "друг"
     
     # приветствие
@@ -37,7 +37,7 @@ async def send_start_message(message: types.Message):
 
     # про компанию
     await message.answer(
-    "lol"
+    "lol lol lolollololololololololololololol"
         )
 
 
@@ -91,7 +91,7 @@ async def about_company(callback: types.CallbackQuery):
     await callback.answer()
 
     await callback.message.answer(
-        "**О**"
+        "hhkjfdshfkjsdh hdisufhiusdhfidshfisdhf iufhdiushfsdkjhfsd hiushfkjsdhfs"
     , parse_mode="Markdown")
 
     # видео
